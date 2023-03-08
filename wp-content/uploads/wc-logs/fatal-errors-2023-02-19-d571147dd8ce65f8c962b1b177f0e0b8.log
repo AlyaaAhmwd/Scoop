@@ -1,0 +1,85 @@
+2023-02-19T13:54:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php:86
+Stack trace:
+#0 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): custom_woocommerce_states(Array)
+#1 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(169): apply_filters('woocommerce_sta...', Array)
+#3 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(475): WC_Countries->get_states('AF')
+#4 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(658): WC_Countries->country_dropdown_options('US', 'CA')
+#5 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-page.php(213): WC_Admin_Settings::output_fields(Array)
+#6 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Settings_Page->output('')
+#7 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(291): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\divemoregroup\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php on line 86
+
+2023-02-19T13:55:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php:86
+Stack trace:
+#0 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): techiepress_3ld_states(Array)
+#1 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(169): apply_filters('woocommerce_sta...', Array)
+#3 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(475): WC_Countries->get_states('AF')
+#4 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(658): WC_Countries->country_dropdown_options('US', 'CA')
+#5 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-page.php(213): WC_Admin_Settings::output_fields(Array)
+#6 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Settings_Page->output('')
+#7 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(291): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\divemoregroup\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php on line 86
+
+2023-02-19T13:55:23+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php:86
+Stack trace:
+#0 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): techiepress_3ld_states(Array)
+#1 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(169): apply_filters('woocommerce_sta...', Array)
+#3 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-setting-options-v2-controller.php(218): WC_Countries->get_states('AF')
+#4 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-setting-options-v2-controller.php(194): WC_REST_Setting_Options_V2_Controller->get_countries_and_states()
+#5 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\src\Internal\Admin\Settings.php(162): WC_REST_Setting_Options_V2_Controller->get_group_settings('general')
+#6 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Settings->add_component_settings(Array)
+#7 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#8 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminSharedSettings.php(61): apply_filters('woocommerce_adm...', Array)
+#9 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(264): Automattic\WooCommerce\Internal\Admin\WCAdminSharedSettings->Automattic\WooCommerce\Internal\Admin\{closure}()
+#10 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(365): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->execute_lazy_data()
+#11 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#12 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\divemoregroup\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#15 C:\xampp\htdocs\divemoregroup\wp-admin\admin.php(297): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php on line 86
+
+2023-02-19T13:55:32+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php:86
+Stack trace:
+#0 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): techiepress_3ld_states(Array)
+#1 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\class-wc-countries.php(169): apply_filters('woocommerce_sta...', Array)
+#3 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\views\html-admin-page-shipping-zone-methods.php(52): WC_Countries->get_states('DZ')
+#4 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-shipping.php(302): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-shipping.php(240): WC_Settings_Shipping->zone_methods_screen('new')
+#6 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-shipping.php(178): WC_Settings_Shipping->output_zones_screen()
+#7 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Settings_Shipping->output('')
+#8 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#11 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\divemoregroup\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(291): WC_Admin_Settings::output()
+#13 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#14 C:\xampp\htdocs\divemoregroup\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\divemoregroup\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\divemoregroup\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#17 {main}
+  thrown in C:\xampp\htdocs\divemoregroup\wp-content\plugins\cities\3-level-states-woocommerce.php on line 86
+

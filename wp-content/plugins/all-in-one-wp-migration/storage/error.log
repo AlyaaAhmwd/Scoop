@@ -1,0 +1,6 @@
+Mar 08 2023 09:30:24
+{"type":2,"message":"fopen(C:\\xampp\\htdocs\\scoop\/\/C:\/xampp\/htdocs\/scoop\/wp-content\/uploads\/sucuri\/.htaccess): Failed to open stream: No such file or directory","file":"C:\\xampp\\htdocs\\scoop\\wp-content\\plugins\\sucuri-scanner\\src\\hardening.lib.php","line":98}
+
+Mar 08 2023 09:30:25
+{"type":2,"message":"fopen(C:\\xampp\\htdocs\\scoop\/\/C:\/xampp\/htdocs\/scoop\/wp-content\/uploads\/sucuri\/.htaccess): Failed to open stream: No such file or directory","file":"C:\\xampp\\htdocs\\scoop\\wp-content\\plugins\\sucuri-scanner\\src\\hardening.lib.php","line":98}
+
